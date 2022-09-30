@@ -3,31 +3,72 @@
     src: url(./resources/fonts/Montserrat-VariableFont_wght.ttf);
 }
 
+title{
+    display: none;
+}
+
 *{
     font-family:"Montserrat";
     box-sizing: border-box; 
     margin: 0;
     padding: 0;
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+header{
+    position:fixed;
+    background-color: black;
+    left: 0rem;
+    right: 0rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+}
+
+.menuHeader{
+    display: none;
+}
+
+header img{
+    position: absolute;
+    left: 2rem;
+    top: 2.6rem;
+    cursor:pointer;
+}
+
+.title{
+    display: block;
+}
+
+.title h1{
+    padding-right: 6rem;
+}
+
+.title h3{
+    padding-left: 6rem;
+}
+
 html{
-    font-size: 25px;
+    font-size: 62.5%;
 }
 
 body{
-    background-color: black;
+    background-color: rgb(255, 0, 0);
     color:white;
 }
 
 h1{
-    font-size: 1rem;
-    ;
+    font-size: 2.5rem;
+    font-weight: 600;
 }
 
 h3{
-    font-size: 0.68rem;
+    font-size: 1.7rem;
     font-weight:400; 
+}
+
+.startingSection{
+    background-color: black;
+    padding-top: 10rem;
 }

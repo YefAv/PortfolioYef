@@ -237,3 +237,70 @@ footer{
     top: 3rem;
     right: 2rem;
 }
+
+.roundedBio{
+    background-color: #523EA9;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+.mainBio{
+    display: table;
+}
+
+.mainBio img{
+    width: 11.4rem;
+    height: 15.8rem;
+    border-radius: 3.5rem;
+    margin-top: 2rem;
+    margin: 2rem;
+}
+
+td{
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.mainBio p {
+    margin: 1rem;
+    margin-right: 2rem;
+    font-size: 1.4rem;
+}
+
+.infoBlock{
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+.infoSection{
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 12rem;
+    margin-top: 1rem;
+}
+
+.infoBlock > ol{
+    list-style-type: none;
+}
+
+.infoBlock > h2{
+    font-size: 2rem;
+    padding-top: 1rem;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+    margin-top: 5rem;
+}
+
+.infoBlock p{
+   margin-left: 2rem;
+   text-align: left;
+   font-size: 1.4rem;
+   padding-bottom: 1.5rem;
+   margin-block-end: 0rem;
+   margin-block-start: 0rem;
+}

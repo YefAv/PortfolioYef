@@ -1,4 +1,5 @@
 
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 title{
     display: none;
@@ -9,8 +10,13 @@ title{
     box-sizing: border-box; 
     margin: 0;
     padding: 0;
-    flex-wrap: wrap;
-    justify-content: center;
+}
+
+:root {
+    --bg-color: #16181C;
+    --main-color: #7856FF;
+    --secondary-color: #523EA9;
+    --darkButton-color: #2D2535;
 }
 
 header{
@@ -22,10 +28,35 @@ header{
     padding-bottom: 1.5rem;
     display: flex;
     z-index: 10;
+    justify-content: center;
 }
 
 .menuHeader{
-    display: none;
+    position: fixed;
+    background-color: var(--main-color);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 15;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.lineButton{
+    color:white;
+    font-size: 1.7rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-weight: 600;
+}
+
+.lightButton{
+    font-weight: 400;
 }
 
 header img{
@@ -52,7 +83,7 @@ html{
 }
 
 body{
-    background-color: #16181C;
+    background-color: var(--bg-color);
     color:white;
 }
 
@@ -92,7 +123,7 @@ h3{
 
 }
 .textOrganizer > h1{
-    background-color: #16181C;
+    background-color: var(--bg-color);
     display: inline-block;
     font-size: 2rem;
     padding-left: 3rem;
@@ -112,10 +143,12 @@ hr{
     padding-top: 1.5rem;
     padding-bottom: 2.5rem;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .buttonMobile{
-    background-color: #7856FF;
+    background-color: var(--main-color);
     color: white;
     padding-bottom: 1rem;
     padding-top: 1rem;
@@ -131,7 +164,7 @@ hr{
 
 .categoryTitle{
     text-align: center;
-    background-color: #7856FF;
+    background-color: var(--main-color);
     font-size: 2rem;
     padding-top: .6rem;
     padding-bottom: .6rem;
@@ -143,7 +176,9 @@ hr{
     display: flex;
     margin-right: 2rem;
     margin-left: 2rem;
-    
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
 }
 
 .bgSquare{
@@ -165,6 +200,7 @@ hr{
     margin-bottom: 1rem;
     
 }
+
 .mainImg{
     border-radius: 1.7rem;
     margin-left: 1rem;
@@ -184,7 +220,7 @@ p{
 }
 
 footer{
-    background-color: #7856FF;
+    background-color: var(--main-color);
     border-top-left-radius: 1.7rem;
     border-top-right-radius: 1.7rem;
     position:fixed;
@@ -219,7 +255,7 @@ footer{
 }
 
 .buttonDark{
-    background-color: #2D2535;
+    background-color: var(--darkButton-color);
     color: white;
     padding-bottom: 1rem;
     padding-top: 1rem;
@@ -239,7 +275,7 @@ footer{
 }
 
 .roundedBio{
-    background-color: #523EA9;
+    background-color: var(--secondary-color);
     border-radius: 1rem;
     margin-top: 2rem;
     margin-left: 2rem;

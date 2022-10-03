@@ -17,7 +17,7 @@ header{
 }
 
 p{
-    font-size: 1.2rem;
+    font-size: var(--paragraph-size);
 }
 
 .title h1{
@@ -102,3 +102,32 @@ td{
 .infoSection{
 margin-bottom: 5rem;
 }
+
+.mainBio{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    border-radius: 5.4rem;
+}
+
+.mainBio img{
+    width: 22.8rem;
+    height: 31.6rem;
+}
+
+.galery{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+iframe{
+    height: 38rem;
+    width: 64rem;
+}
+
+.bgRectangle{
+    height: 36rem;
+    width: 64rem;
+    margin-top: 2rem;
+    background-color: var(--main-color);
+}
+

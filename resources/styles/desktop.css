@@ -1,0 +1,104 @@
+:root {
+    --titles-size: 3rem;
+    --subtitles-size: 2.5rem;
+    --bigText-size: 2.2rem;
+    --paragraph-size: 1.7rem;
+    --captions-size:1.8rem;
+}
+
+header{
+    justify-content: flex-start;
+}
+
+.title{
+    display: inline-flex;
+    padding-top:1rem;
+    padding-left: 2.5rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.title h1{
+    padding: 2rem;
+}
+
+.title h3{
+    padding: 2rem;
+    padding-top: 3rem;
+    padding-left: 0rem;
+
+}
+
+.menu-wrap{
+    display: none;
+}
+
+.menuDesktop{
+    display: flex;
+    position: absolute;
+    right: 2rem;
+}
+
+.startingSection{
+    padding-top: 13rem;
+    padding-bottom: 5rem;
+}
+
+.menuMobile{
+    display: none;
+}
+
+.categoryTitle{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position:sticky;
+    top: 11.5rem;
+}
+
+.textOrganizer > h1{
+    padding-left: 8rem;
+    padding-right: 3rem;
+}
+
+.contact > *{
+    display: inline;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.buttonDark{
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+
+    cursor: pointer;
+    right: 16rem;
+    top: .7rem;
+}
+
+.mainBio img{
+    width: 11.4rem;
+    height: 15.8rem;
+    border-radius: 3.5rem;
+    margin-top: 2rem;
+    margin: 2rem;
+}
+
+td{
+    display: table-cell;
+    width:auto;
+}
+
+.bioCell{
+    width: 35%;
+}
+
+.infoSection{
+margin-bottom: 5rem;
+}
